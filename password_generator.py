@@ -2,6 +2,8 @@ import random
 import string
 
 def generate_password(min_lengh,numbers=True,special_character=True):
+    #this function takes the minimum characters, if the user wants a digit and if the user wants a special character
+    #it returns a password with the criteria specified.
     letters = string.ascii_letters
     digits = string.digits
     special = string.punctuation
